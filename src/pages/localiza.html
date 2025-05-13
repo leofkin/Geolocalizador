@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+        <!-- CHAMANDO O CSS DA API -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"crossorigin=""/>
+    <title>Localiza</title>
+</head>
+<body>
+    <header>
+        <h1 id="logo">Projeto</h1>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a href="./quiz.html">Quiz</a></li>
+                <li><a href="./localiza.html">Localização</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="localiza">
+            <h1>Mapa de Localização</h1>
+            <section id="mapa-container">
+                <div id="mapid"></div>
+                <div id="localizacao">Sua Localização</div>
+            </section>
+        </div>
+    </main>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"crossorigin=""></script>
+    <!--CHAMANDO O JAVASCRIPT EXTERNO-->
+    <script src="../js/localiza.js"></script>
+    </body>
+    </html>
